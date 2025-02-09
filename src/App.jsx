@@ -1,12 +1,16 @@
-import Navbar from './navbar';
-import Footer from './footer';
-import Home from './home';
+import React from "react";
+import Navbar from "./navbar";
+import Register from "./register";
+import LoginPage from "./LoginPage";
+import Footer from "./footer";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Home />
+      {/* <Home /> */} {/* Esto queda comentado por ahora */}
+      {/* <Register /> */} {/* Esto queda comentado por ahora */}
+      <LoginPage />
       <Footer />
     </div>
   );

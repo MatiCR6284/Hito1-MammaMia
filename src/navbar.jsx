@@ -24,7 +24,7 @@ const Navbar = () => {
             {!token ? (
               <>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">🔐 Login</a>
+                  <a className="nav-link" href="src/LoginPage.jsx">🔐 Login</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">🔏 Register</a>
